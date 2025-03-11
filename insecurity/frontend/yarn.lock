@@ -1088,12 +1088,12 @@
     "@babel/plugin-transform-typescript" "^7.9.0"
 
 "@babel/runtime-corejs3@^7.10.2", "@babel/runtime-corejs3@^7.8.3":
-  version "7.12.1"
-  resolved "https://registry.npm.taobao.org/@babel/runtime-corejs3/download/@babel/runtime-corejs3-7.12.1.tgz#51b9092befbeeed938335a109dbe0df51451e9dc"
-  integrity sha1-UbkJK+++7tk4M1oQnb4N9RRR6dw=
+  version "7.26.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.26.10.tgz#5a3185ca2813f8de8ae68622572086edf5cf51f2"
+  integrity sha512-uITFQYO68pMEYR46AHgQoyBg7KPPJDAbGn4jUTIRgCFJIp88MIBUianVOplhZDEec07bp9zIyr4Kp0FCyQzmWg==
   dependencies:
-    core-js-pure "^3.0.0"
-    regenerator-runtime "^0.13.4"
+    core-js-pure "^3.30.2"
+    regenerator-runtime "^0.14.0"
 
 "@babel/runtime@7.9.0":
   version "7.9.0"
@@ -3472,10 +3472,10 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js-pure@^3.0.0:
-  version "3.6.5"
-  resolved "https://registry.npm.taobao.org/core-js-pure/download/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
-  integrity sha1-x5519eONvIWmYtke6lK4JW1TuBM=
+core-js-pure@^3.30.2:
+  version "3.41.0"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.41.0.tgz#349fecad168d60807a31e83c99d73d786fe80811"
+  integrity sha512-71Gzp96T9YPk63aUvE5Q5qP+DryB4ZloUZPSOebGM88VNw8VNfvdA7z6kGA8iGOTEzAomsRidp4jXSmUIJsL+Q==
 
 core-js@^1.0.0:
   version "1.2.7"
@@ -9631,6 +9631,11 @@ regenerator-runtime@^0.13.3, regenerator-runtime@^0.13.4:
   version "0.13.7"
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz?cache=0&sync_timestamp=1595456331640&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
+
+regenerator-runtime@^0.14.0:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
+  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regenerator-transform@^0.14.2:
   version "0.14.5"
